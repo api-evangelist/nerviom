@@ -1,8 +1,29 @@
 aid: nerviom
 name: Nerviom
-description: Nerviom is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nerviom is a Y Combinator-backed startup building AI workflows for
+  infrastructure site predevelopment. Its platform deploys AI-assisted workflows
+  tailored to each stage of predevelopment across data centers, energy,
+  manufacturing, telecom, commercial, and mining sites — helping teams surface
+  permitting, zoning, compliance, and interconnection risks earlier, make
+  repeatable execution processes that do not scale linearly with headcount, and
+  consolidate scattered PDFs, portals, and spreadsheets into a single operating
+  view. Nerviom is an early-stage company; it currently publishes a marketing
+  and demo-booking site and does not yet expose a public API, developer portal,
+  or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/nerviom/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nerviom.com/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Infrastructure
+- Data Centers
+- Energy
+- Predevelopment
+- Workflow Automation
+- Site Selection
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nerviom-domain-security.yml
+- type: Website
+  url: https://www.nerviom.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
